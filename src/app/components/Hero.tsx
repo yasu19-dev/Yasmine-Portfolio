@@ -18,7 +18,8 @@ export function Hero() {
         {/* Animated Badge */}
         <motion.div 
           initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="bg-[#252A36] border border-[#313640] px-4 py-1.5 rounded-full text-[#00D1B2] text-xs font-semibold tracking-wider uppercase mb-8 shadow-sm"
         >
@@ -28,7 +29,8 @@ export function Hero() {
         {/* Title */}
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-[#E0E6ED] leading-tight mb-6 max-w-4xl"
         >
@@ -41,17 +43,19 @@ export function Hero() {
         {/* Subtitle */}
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-[#A0AEC0] text-lg md:text-xl max-w-2xl leading-relaxed mb-10 font-light"
         >
-          Rigueur juridique. Agilité technique. Des solutions numériques sur-mesure.
+          La maîtrise du développement Full Stack couplée à l'exigence juridique. Je crée des plateformes performantes, sécurisées et parfaitement conformes à vos enjeux réglementaires.
         </motion.p>
 
         {/* CTA Button */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: false }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
           <a 
@@ -67,7 +71,8 @@ export function Hero() {
       {/* Scroll Indicator */}
       <motion.div 
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: false }}
         transition={{ delay: 1.5, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-[#A0AEC0]"
       >

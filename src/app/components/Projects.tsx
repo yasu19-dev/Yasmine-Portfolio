@@ -44,7 +44,7 @@ const projects = [
     description: "Plateforme full-stack sécurisée. Gestion dynamique du catalogue (JSON), système de panier avec sessions, et génération automatisée des reçus au format PDF.",
     tech: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
     image: "para.png",
-    github: "https://github.com/yasu19-dev/Parapharmacie",
+    github: "https://github.com/yasu19-dev/parapharmacie-ecommerce",
     demo: "https://demo.com",
   },
 ];
@@ -70,7 +70,7 @@ export function Projects() {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.6 }}
             className="bg-gradient-to-br from-[#252A36] to-[#1A1F2B] border border-[#00D1B2]/50 rounded-xl p-8 relative overflow-hidden group shadow-[0_0_20px_rgba(0,209,178,0.1)] hover:shadow-[0_0_30px_rgba(0,209,178,0.2)] transition-all flex flex-col h-full"
           >
@@ -110,7 +110,7 @@ export function Projects() {
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="bg-gradient-to-br from-[#252A36] to-[#1A1F2B] border border-[#313640] rounded-xl p-8 relative overflow-hidden group shadow-[0_0_20px_rgba(0,0,0,0.2)] hover:shadow-[0_0_30px_rgba(0,209,178,0.15)] hover:border-[#00D1B2]/30 transition-all flex flex-col h-full"
           >
@@ -163,7 +163,7 @@ export function Projects() {
               key={project.id}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: false }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group bg-[#252A36] rounded-xl overflow-hidden border border-[#313640] hover:border-[#00D1B2] transition-all hover:shadow-[0_0_20px_rgba(0,209,178,0.1)] flex flex-col h-full"
             >

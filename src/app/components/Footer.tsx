@@ -1,15 +1,24 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail,  Code2,  Scale } from "lucide-react";
+
+
 
 export function Footer() {
   return (
     <footer className="bg-[#1A1F2B] border-t border-[#313640] py-12 px-6">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-[#A0AEC0]">
         
-        {/* Brand */}
+        {/* LOGO*/}
         <div className="flex flex-col gap-4">
-          <div className="flex items-center gap-2 text-xl font-serif text-[#E0E6ED]">
+          <div  className="flex items-center gap-2 group">
+          <div className="relative">
+            <Scale className="w-8 h-8 text-[#E0E6ED] group-hover:text-[#00D1B2] transition-colors" />
+            <Code2 className="w-4 h-4 text-[#00D1B2] absolute -bottom-1 -right-1" />
+        </div>
+        <div className="flex items-center gap-2 text-xl font-serif text-[#E0E6ED]">
             Y.H. <span className="text-[#00D1B2]">Dev</span>
-          </div>
+        </div>
+        </div>
+          
           <p className="text-sm font-light leading-relaxed max-w-xs">
             Fusionnant la rigueur du droit privé avec l'innovation du développement Full Stack.
           </p>

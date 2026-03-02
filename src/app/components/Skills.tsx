@@ -44,7 +44,7 @@ export function Skills() {
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
@@ -60,7 +60,7 @@ export function Skills() {
               key={skill.name}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
               className="group flex items-center gap-3 bg-[#252A36] border border-[#313640] hover:border-[#00D1B2] px-6 py-4 rounded-xl transition-all hover:shadow-[0_0_15px_rgba(0,209,178,0.15)] cursor-default"
             >

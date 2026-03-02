@@ -21,7 +21,7 @@ export function Approach() {
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.8 }}
             className="flex flex-col gap-8 bg-[#252A36] p-8 rounded-xl border-l-4 border-[#00D1B2] relative shadow-lg"
           >
@@ -61,7 +61,7 @@ export function Approach() {
           <motion.div 
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.8 }}
             className="flex flex-col gap-8 bg-[#252A36] p-8 rounded-xl border-l-4 border-[#6366F1] relative shadow-lg"
           >

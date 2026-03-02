@@ -10,7 +10,7 @@ export function Introduction() {
         <motion.div 
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{ duration: 0.8 }}
           className="flex flex-col gap-6"
         >
@@ -32,7 +32,7 @@ export function Introduction() {
         <motion.div 
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{ duration: 0.8 }}
           className="grid grid-cols-1 sm:grid-cols-2 gap-6"
         >
