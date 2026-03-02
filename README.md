@@ -1,7 +1,7 @@
 
-  # One-Page LegalTech Portfolio
+  # Yasmine LegalTech Portfolio
 
-  This is a code bundle for One-Page LegalTech Portfolio. The original project is available at https://www.figma.com/design/MfNaZ8wvcGA2QFbfHlJIBK/One-Page-LegalTech-Portfolio.
+  This is a code bundle for Yasmine LegalTech Portfolio. 
 
   ## Running the code
 
