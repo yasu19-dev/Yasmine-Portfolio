@@ -1,0 +1,89 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Font Families */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  /* Color Palette - LegalTech Theme */
+  --background: #1A1F2B;
+  --foreground: #E0E6ED;
+  
+  --card: #252A36;
+  --card-foreground: #E0E6ED;
+  
+  --popover: #252A36;
+  --popover-foreground: #E0E6ED;
+  
+  --primary: #00D1B2;
+  --primary-foreground: #1A1F2B;
+  
+  --secondary: #313640;
+  --secondary-foreground: #E0E6ED;
+  
+  --muted: #313640;
+  --muted-foreground: #A0AEC0;
+  
+  --accent: #2A303C;
+  --accent-foreground: #00D1B2;
+  
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  
+  --border: #313640;
+  --input: #252A36;
+  --ring: #00D1B2;
+  
+  --radius: 0.5rem;
+}
+
+/* Force dark theme look by default since user asked for it */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+@theme inline {
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+  }
+}
