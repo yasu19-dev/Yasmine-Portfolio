@@ -20,7 +20,7 @@ export function ProjectDetails() {
   }
 
   const isYoutube = project.demo?.includes('youtu');
-  const youtubeId = isYoutube ? project.demo.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([^&?]+)/)?.[1] : null;
+  const youtubeId = isYoutube ? project.demo?.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([^&?]+)/)?.[1] : null;
 
   return (
     <motion.div

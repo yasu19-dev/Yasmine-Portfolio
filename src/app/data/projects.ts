@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 6,
-    title: "Gestion pédagogique établissement ISTA NTIC (PFE)",
+    title: "Gestion pédagogique établissement ISTA NTIC (PFE) 🏫",
     description: "Développement Full-Stack (React.js / Laravel) d'un ERP académique sur-mesure pour la digitalisation de l'institut ISMONTIC. Cette plateforme centralise la gestion complexe des emplois du temps via l'importation Excel, automatise le suivi des présences en temps réel, et dématérialise les flux administratifs à travers une architecture sécurisée multi-rôles (Administration, Formateurs, Stagiaires).",
     tech: ["Laravel 12", "React.js", "MySQL"],
     image: "./pfeISTA/imagePFE.png", // Image placeholder
@@ -47,7 +47,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "E-Tahssil (Plateforme Tribunal)",
+    title: "E-Tahssil (Plateforme Tribunal) ⚖️👩🏻‍⚖️",
     description: "Plateforme web (ERP) conçue pour digitaliser la section des notifications et des recouvrements du tribunal. E-Tahssil automatise le traitement de données massives et la génération de documents juridiques complexes, alliant sécurité locale et performance.",
     tech: ["React", "Laravel", "MySQL"],
     image: "/tribunal/login.jpeg",
@@ -100,7 +100,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Parapharmacie en Ligne (E-commerce)",
+    title: "Parapharmacie en Ligne (E-commerce) 💊🛍️",
     description: "Développement d'une plateforme e-commerce full-stack sécurisée dédiée à la vente de produits parapharmaceutiques. Le projet intègre un système de panier robuste basé sur les sessions, une gestion dynamique du catalogue via JSON, et la génération automatisée de reçus au format PDF pour les clients.",
     tech: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
     image: "/parapharmacie/para.png",
@@ -127,7 +127,7 @@ export const projects = [
   },
   {
     id: 7,
-    title: "Boutique en ligne de Caftans",
+    title: "Boutique en ligne de Caftans 👗",
     description: "Conception et déploiement d'une boutique en ligne premium sous WordPress et WooCommerce, dédiée à la haute couture marocaine. L'interface met en valeur l'artisanat traditionnel à travers un web design élégant, tout en offrant un parcours d'achat fluide, sécurisé et entièrement responsive.",
     tech: ["WordPress", "WooCommerce", "Elementor", "CSS"],
     image: "./jasmine/jasminewoo.png",
@@ -155,6 +155,26 @@ export const projects = [
       "/jasmine/contact.png",
       "/jasmine/newsletter.png",
       "/jasmine/maps.png",
+    ]
+  },
+  {
+    id: 8,
+    title: 'Boutique en Ligne CMS 📱',
+    description: "Configuration, personnalisation et déploiement d'un site e-commerce performant. Intégration de modules de paiement sécurisé et optimisation technique pour le référencement naturel (SEO).",
+    tech: ['WordPress', 'WooCommerce', 'Astra', 'SEO'],
+    image: '/boutique/projet-boutique-wp.jpeg',
+    detailedDescription: `<p><strong>Le Contexte</strong><br/>Lancer une activité commerciale sur le web exige une plateforme à la fois robuste pour traiter les transactions et accessible pour faciliter la gestion quotidienne par l'administrateur. L'objectif de ce projet était de livrer un site e-commerce "clé en main", offrant une vitrine professionnelle tout en garantissant une autonomie totale sur la gestion du catalogue, des stocks et des commandes.</p>
+<p><strong>Le Défi</strong><br/>Le challenge principal consistait à concilier une interface riche en fonctionnalités avec des temps de chargement ultra-rapides, un critère fondamental pour l'expérience utilisateur et le référencement. Il a fallu structurer le catalogue de manière stratégique pour les moteurs de recherche, tout en configurant un tunnel de conversion fluide, rassurant et techniquement irréprochable pour minimiser les abandons de panier.</p>
+<p><strong>Les Fonctionnalités Clés</strong></p>
+<ul>
+  <li><strong>Moteur E-commerce Complet :</strong> Intégration et configuration avancée de WooCommerce pour la gestion du cycle de vente (panier, variations de produits, calcul des frais de port et taxes).</li>
+  <li><strong>Transactions Sécurisées :</strong> Déploiement et paramétrage de passerelles de paiement cryptées pour garantir la sécurité des données bancaires des clients.</li>
+  <li><strong>Architecture SEO-Friendly :</strong> Optimisation technique (vitesse de chargement, hiérarchisation des balises Hn, méta-descriptions, optimisation des images) pour maximiser la visibilité sur les moteurs de recherche.</li>
+  <li><strong>Design Haute Performance :</strong> Personnalisation poussée via le thème Astra, assurant une navigation fluide, moderne et 100% responsive (Mobile-First).</li>
+</ul>
+<p><strong>Mon Approche</strong><br/>J'ai sélectionné l'écosystème WordPress et WooCommerce pour sa flexibilité et sa scalabilité. Pour répondre aux exigences de rapidité et de performance, j'ai construit l'interface sur la base du thème Astra, reconnu pour son code minimaliste et sa légèreté. Tout au long de l'intégration, j'ai placé le SEO au cœur de ma démarche technique afin de garantir non seulement une excellente expérience d'achat, mais aussi une acquisition de trafic organique durable et de qualité.</p>`,
+    screenshots: [
+      "/boutique/projet-boutique-wp.jpeg"
     ]
   },
   {
