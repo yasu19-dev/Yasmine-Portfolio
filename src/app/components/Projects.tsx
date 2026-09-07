@@ -9,7 +9,7 @@ const projects = [
     tech: ["Python", "Tkinter", "MongoDB"],
     image: "./login.avif",
     github: "https://github.com/yasu19-dev/Projet_Tkinter",
-    demo: null,
+    demo: 'https://demo.com',
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const projects = [
     tech: ["Laravel", "MySQL", "Bootstrap"],
     image: "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VydGhvdXNlfGVufDF8fHx8MTc3MjM3ODA4OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     github: "https://github.com/yasu19-dev/Plateforme_Tribunal",
-    demo: null,
+    demo: 'https://demo.com',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const projects = [
     tech: ["React.js", "API TMDb", "CSS Modules"],
     image: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZXRmbGl4fGVufDF8fHx8MTc3MjM3ODA4OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     github: "https://github.com/yasu19-dev/projet-react-netflix",
-    demo: "https://demo.com",
+    demo: "https://yasu19-dev.github.io/projet-react-netflix/",
   },
   {
     id: 4,
